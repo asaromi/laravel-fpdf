@@ -2,6 +2,7 @@
 FPDF is one of most package to make pdf file in php. Now, the package is supported in newest Laravel Framework (6.x & 7.x)
 The package including barcode class in FPDF
 
+### Example Code
 ```
 $pdf = new PDF_Code128('L','mm',array(65,102));
 $pdf->AddPage();
